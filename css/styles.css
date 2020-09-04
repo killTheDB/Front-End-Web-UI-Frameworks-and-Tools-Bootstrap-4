@@ -65,7 +65,7 @@ body {
   left: 150px;
 }
 
-#carouselButton {
+#carouselButton,#carouselButton {
     right:0px;
     position: absolute;
     bottom: 0px;
