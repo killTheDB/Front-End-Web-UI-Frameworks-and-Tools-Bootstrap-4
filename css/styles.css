@@ -65,4 +65,9 @@ body {
   z-index: 1;
 }
 
+.carousel-caption p {
+  position: relative;;
+  left: 150px;
+}
+
 /*# sourceMappingURL=styles.css.map */
