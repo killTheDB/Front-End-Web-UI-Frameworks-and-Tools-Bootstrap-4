@@ -79,3 +79,18 @@ body{
     position: relative;
     left:150px;
 }
+
+.modal-header {
+	background:$background-dark;
+	color:floralwhite;
+	
+	button {
+		color:floralwhite;
+	}
+}
+.modal-body {
+	background:$background-pale;
+}
+.modal-footer {
+	background:$background-light;
+}
