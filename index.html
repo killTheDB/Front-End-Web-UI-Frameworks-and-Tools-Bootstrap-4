@@ -12,6 +12,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
 
     <!-- Bootstrap CSS -->
+    <!-- build:css css/main.css -->
     <link
       rel="stylesheet"
       href="node_modules/bootstrap/dist/css/bootstrap.min.css"
@@ -26,6 +27,7 @@
       rel="stylesheet"
       href="node_modules/bootstrap-social/bootstrap-social.css"
     />
+    <!-- endbuild -->
   </head>
 
   <body>
@@ -444,48 +446,12 @@
     </footer>
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <!-- build:js js/main.js -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/tether/dist/js/tether.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <!-- <script>
-      $(document).ready(function () {
-        $('[data-toggle="tooltip"]').tooltip();
-      });
-    </script> -->
-    <!-- <script>
-      $(document).ready(function () {
-          $("#mycarousel").carousel({ interval: 4000 });
-          $("#carousel-pause").click(function () {
-            $("#mycarousel").carousel('pause');
-          });
-          $("#carousel-play").click(function () {
-            $("#mycarousel").carousel('cycle');
-          });
-        });
-    </script> -->
-    <script>
-      $(document).ready(function () {
-          $("#mycarousel").carousel({ interval: 4000 });
-           $("#carouselButton").click(function () {
-          if ($("#carouselButton").children("span").hasClass('fa-pause')) {
-            $("#mycarousel").carousel('pause');
-            $("#carouselButton").children("span").removeClass('fa-pause');
-            $("#carouselButton").children("span").addClass('fa-play');
-          }
-          else if ($("#carouselButton").children("span").hasClass('fa-play')) {
-            $("#mycarousel").carousel('cycle');
-            $("#carouselButton").children("span").removeClass('fa-play');
-            $("#carouselButton").children("span").addClass('fa-pause');
-          }
-          });
-          $('#reserveButton').click(function () {
-            $('#reserveModal').modal('show');
-        });
-        $('#loginButton').click(function () {
-          $('#loginModal').modal('show');
-        });
-        });
-
-    </script>
+    <script src="js/scripts.js"></script>
+    <!-- endbuild -->
   </body>
 </html>
